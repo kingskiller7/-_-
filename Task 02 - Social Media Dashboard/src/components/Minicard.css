@@ -1,0 +1,64 @@
+.mini-container {
+	/* margin: 0px auto; */
+	/* max-width: 400px; */
+	height: auto;
+	background-color: hsl(227, 47%, 96%);
+	border-radius: 7px;
+	text-align: center;
+}
+
+.mini-container:hover {
+	background-color: #e0e3f0;
+	cursor: pointer;
+}
+
+.flex-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 26px 8px 22px;
+}
+
+.title {
+	color: hsl(228, 12%, 44%);
+	font-size: 0.85rem;
+}
+
+.mini-icon {
+	width: 20px;
+}
+
+.flex-stats {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	padding: 0px 26px 16px 22px;
+}
+
+.today-count {
+	color: hsl(230, 17%, 14%);
+	font-size: 2rem;
+	margin: 0;
+}
+
+.mini-arrow {
+	padding-right: 3px;
+	vertical-align: middle;
+	display: inline;
+	height: 10px;
+	width: 10px;
+}
+
+.percentage {
+	display: inline;
+	font-size: 0.7rem;
+	font-weight: bold;
+}
+
+.percentage.up {
+	color: hsl(161, 72%, 41%);
+}
+
+.percentage.down {
+	color: hsl(356, 69%, 56%);
+}

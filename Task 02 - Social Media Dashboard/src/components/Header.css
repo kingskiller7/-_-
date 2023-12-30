@@ -1,0 +1,44 @@
+.heading {
+	color: hsl(230, 17%, 14%);
+	font-size: 2rem;
+	margin-bottom: 0.2em;
+}
+
+.total {
+	color: hsl(228, 12%, 44%);
+	margin-top: 0;
+	font-size: 0.8rem;
+}
+
+.flex-heading {
+	width: auto;
+}
+
+@media only screen and (max-width: 500px) {
+	.heading {
+		font-size: 1.6rem;
+	}
+}
+
+@media only screen and (max-width: 358px) {
+	.heading {
+		font-size: 1.4rem;
+	}
+}
+
+@media only screen and (max-width: 318px) {
+	.heading {
+		font-size: 1.2rem;
+	}
+}
+
+@media only screen and (max-width: 560px) {
+	.total {
+		border-bottom: solid 1px gray;
+		padding-bottom: 22px;
+	}
+
+	.flex-heading {
+		width: 100%;
+	}
+}
